@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "airships-example-mod",
+  "id": "airships-injured-modules-mod",
   "version": "${version}",
   "name": "Airships Example Mod",
   "description": "",
@@ -15,11 +15,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "art.xeloboyo.airshipsexamplemod.AirshipsExampleMod"
+      "com.kenro.injuredmodulesmod.InjuredModules"
     ]
   },
   "mixins": [
-    "airships-example-mod.mixins.json"
+    "airships-injured-modules.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.13.3",
