@@ -66,6 +66,7 @@ jar {
     }
 }
 
+
 // configure the maven publication
 publishing {
     publications {
